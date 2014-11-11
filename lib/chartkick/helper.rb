@@ -8,6 +8,10 @@ module Chartkick
       chartkick_chart "LineChart", data_source, options
     end
 
+    def bar_chart(data_source, options = {})
+      chartkick_chart "BarChart", data_source, options
+    end
+
     def pie_chart(data_source, options = {})
       chartkick_chart "PieChart", data_source, options
     end
